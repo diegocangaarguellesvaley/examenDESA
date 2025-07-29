@@ -1,0 +1,74 @@
+# 🫔 La Cazuela Chapina App
+
+Sistema integral para la gestión de pedidos, combos personalizados, inventario y ventas de un negocio guatemalteco de tamales y bebidas artesanales.
+
+##Tecnologías Utilizadas
+
+- Frontend: **React + Vite + TypeScript**
+- Backend: **.NET (ASP.NET Core Web API)**
+- Base de datos: **SQL Server / MySQL**
+- Otros: Axios, Context API, WebSockets (propuesto), Telemetría, Notificaciones Push, etc.
+
+---
+
+## Funcionalidades Destacadas
+
+- *Gestión de tamales personalizados** (masa, relleno, envoltura, picante, cantidad)
+- **Gestión de bebidas artesanales** (tipo, tamaño, endulzante, toppings)
+- **Combos editables** en tiempo real desde el panel admin
+- **Dashboard** de ventas, utilidad, desperdicios y consumo picante
+- **Vista de sucursales** con estructura para reportes locales
+- **Inventario** de materias primas, empaques y combustible
+- **Integración con LLM vía OpenRouter** (propuesto)
+- **Notificaciones push** y **telemetría de cocción** (propuestos)
+- **ReactScan**: optimización por IA (memoization, separación lógica/UI)
+
+---
+
+## Estructura del Proyecto (Frontend)
+
+---
+
+## 🛠️ Cómo Ejecutar el Proyecto
+
+### 🔧 Requisitos Previos
+
+- Node.js
+- .NET SDK 7+
+- MySQL o SQL Server
+- Git
+### 🧪 Pasos
+
+#### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/diegocangaarguellesvaley/examenDESA.git
+
+cd frontend
+npm install
+npm run dev
+3. Configurar y correr el backend
+Ir a la carpeta del backend (backend/)
+
+
+Ejecutar:
+
+bash
+Copy
+Edit
+dotnet restore
+dotnet run
+
+Futuras Mejoras
+Flutter/Kotlin/Swift App móvil
+
+Gestión de proveedores
+
+Logística de rutas y entregas
+
+Integración con IA para recomendaciones
+
+Mapa interactivo de mesas
+
+Contribuciones
+Pull requests y sugerencias son bienvenidas. ¡Toda ayuda para impulsar la comida chapina con tecnología es bienvenida!
